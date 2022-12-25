@@ -1,0 +1,54 @@
+#presentation {
+  width: 1920px;
+  height: 1080px;
+  background-image: url("../ui/presentation-bg.png");
+}
+
+#presentation video {
+  top: 110px;
+  left: 330px;
+  width: 1255px;
+  height: 705px;
+}
+
+#presentation .button-hitbox {
+  top: 920px;
+  width: 60px;
+  height: 60px;
+}
+
+progress span {
+	width:0%;
+	height:100%;
+	display: inline-block;
+	background-color: #2a84cd;
+	position: relative;
+}
+
+progress {
+	top: 880px;
+	left: 427px;
+	display: block;
+	width: 1065px;
+	height: 10px;
+	overflow: hidden;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+#presentation .button-hitbox:nth-child(2) {
+  left: 780px;
+}
+
+#presentation .button-hitbox:nth-child(3) {
+  left: 880px;
+}
+
+#presentation .button-hitbox:nth-child(4) {
+  left: 980px;
+}
+
+#presentation .button-hitbox:nth-child(5) {
+  left: 1080px;
+}

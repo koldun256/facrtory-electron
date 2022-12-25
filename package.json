@@ -1,0 +1,19 @@
+{
+  "name": "factory-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.2",
+    "electron-rebuild": "^2.3.5"
+  },
+  "dependencies": {
+    "serialport": "^9.2.0"
+  }
+}

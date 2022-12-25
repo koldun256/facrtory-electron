@@ -1,0 +1,23 @@
+#guide {
+  height: 1080px;
+  width: 1920px;
+  background-image: url("../ui/guide-bg.png");
+}
+#guide video {
+  top: 110px;
+  left: 330px;
+  width: 1255px;
+  height: 705px;
+}
+#guide-bg {
+  top: 110px;
+  left: 330px;
+  width: 1255px;
+  height: 705px;
+  background-size: cover;
+  background-image: url("../videos/guide/1.png");
+}
+#guide .button-hitbox {
+  height: 60px;
+  top: 915px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/presentation.css">
+    <link rel="stylesheet" href="css/guide.css">
+  </head>
+  <body>
+    <div id="menu">
+      <div class="button-hitbox"></div>
+      <div class="button-hitbox"></div>
+      <div class="button-hitbox"></div>
+      <div class="button-image"></div>
+      <div class="button-image"></div>
+      <div class="button-image"></div>
+    </div>
+    <video
+      id="transition"
+      class="hidden"
+      src="./videos/transition.mp4"></video>
+    <div id="presentation" class="hidden">
+      <video src="videos/presentation.webm"></video>
+      <div class="button-hitbox"></div>
+      <div class="button-hitbox"></div>
+      <div class="button-hitbox"></div>
+      <div class="button-hitbox"></div>
+      <div class="button-image"></div>
+      <div class="button-image"></div>
+      <div class="button-image"></div>
+      <div class="button-image"></div>
+	  <progress id="progress" value="0" min="0">
+		  <span id="progress-bar"></span>
+	  </progress>
+    </div>
+    <div id="guide" class="hidden">
+		<div id="guide-bg"></div>
+      <!--<video src="videos/guide/1.WebM"></video>-->
+      <!--<div class="button-hitbox" style="left: 510px; width: 230px;"></div>-->
+      <!--<div class="button-hitbox" style="left: 775px; width: 295px;"></div>-->
+      <!--<div class="button-hitbox" style="left: 1105px; width: 205px;"></div>-->
+      <!--<div class="button-hitbox" style="left: 1350px; width: 60px;"></div>-->
+      <!--<div class="button-image"></div>-->
+      <!--<div class="button-image"></div>-->
+      <!--<div class="button-image"></div>-->
+      <!--<div class="button-image"></div>-->
+    </div>
+	<script src="js/utils.js"></script>
+    <script src="js/button.js"></script>
+    <script src="js/remote.js"></script>
+    <script src="js/presentation.js"></script>
+    <script src="js/guide.js"></script>
+    <script src="js/waiting.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  position: absolute;
+}
+video, #bg {
+  width: 100vw;
+  height: 100vh;
+}
+#bg {
+  z-index: -1;
+  background-image: url("../ui/bg-town.jpg");
+  background-size: cover;
+}
+
+.hidden {
+	display: none;
+}

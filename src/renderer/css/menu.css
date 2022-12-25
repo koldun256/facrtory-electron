@@ -1,0 +1,21 @@
+#menu {
+  background-image: url("../ui/menu-bg.png");
+  height: 1080px;
+  width: 1920px;
+}
+
+#menu .button-hitbox {
+  width: 500px;
+  height: 80px;
+  left: 720px;
+}
+
+#menu .button-hitbox:nth-child(1) {
+  top: 500px;
+}
+#menu .button-hitbox:nth-child(2) {
+  top: 630px;
+}
+#menu .button-hitbox:nth-child(3) {
+  top: 760px;
+}

@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+body {
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.button-image {
+  width: 1920px;
+  height: 1080px;
+  pointer-events: none;
+}
